@@ -35,13 +35,13 @@
       </ul>
     </div>
     </header>
-    <script>
+    <!-- <script>
       hambuger = document.querySelector(".hambuger");
       hambuger.onclick = function () {
         navBar = document.querySelector(".nav-bar");
         navBar.classList.toogle("active");
       };
-    </script>
+    </script> -->
     <section class="home" id="home">
       <div class="home-content">
         <h3>HI, I AM</h3>
@@ -54,19 +54,17 @@
         <div class="home-btns">
           
           
-            <div>
+            <div class="nav-bar">
               <ul>
             <li><a href="">HIRE ME</a></li>
               </ul>
           </div>
-          <div>
+          <div class="nav-bar">
             <ul>
             <li><a href="">VIEW CV</a></li>
             </ul>
           </div>
-          </ul>
-            
-            
+          </ul> 
       </div>
       <div class="icons">
         <img src="./icons/youtube.svg" alt="youtube.com" />
@@ -114,15 +112,66 @@
       </div>
     </div>
     <div class="contact">
-      <div>
+      <div class="form">
+        <div>
+          <h3>CONTACT US</H3>
+            <p>Send us a message</p>
+        </div>
+        <div>
+          <form>
+            <input type="text" name="name" required="" id="name" placeholder="Your full name"></br>
+            <input type="email" name="email" required="" id="email" placeholder="Your email"></br>
+            <input type="text-area" name="text" id="text" placeholder="Your message" id="area"></br>
+            <input type="submit" name="" value="Send" id= "submit">
+          </form>
+        </div>
         
       </div>
-      <div>
+      <div class="map">
+        <div class="site">
+        <h4>SITE MAP</h4>
+        <h5>All Our Pages</h5>
+        </div>
+        <div class="pages">
+        <ol style="list-style-type:disc;"style="list-style-type:disc;">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Hire Me</a></li>
+        </ol>
+      </div>
 
       </div>
-      <div>
+      <div class="us">
+        <div class="lg">
+        <img src="./icons/logo13.svg" alt="Logo" width="80px" height="80px">
+        <h2>ANGELO CHRISTIAN</h2>
+        </div>
+        
+        <div class="phone">
+          <div class="iconz">
+            <img src="./icons/phone-solid.svg" alt="phone" width="25px" height="25px"></br>
+            <img src="./icons/whatsapp.svg" alt="Whatsapp" width="25px" height="25px"></br>
+            <img src="./icons/envelope-regular.svg" alt="email" width="25px" height="25px"></br>
+             <img src="./icons/linkedin-in.svg" alt="linkedin" width="25px" height="25px"></br>
+            
+          </div>
+          <div>
+            <p>+250785534291</p>
+            <p>+250785534291</p>
+            <p>ishgatetechristian@gmail.com</p>
+            <p>@AngeloChristian</p>
+          
+
+          </div>
+        </div>
 
       </div>
     </div>
+    <footer>
+      <img scr="./icons/copyright-regular.svg">
+      <p>Designed by <span>AngeloChristian</span>. All rights reserved</p>
+    </footer>
   </body>
 </html>
