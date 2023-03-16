@@ -99,6 +99,7 @@ header {
 .nav-bar ul li a.active:hover {
   background: #c3dbff;
 }
+/* }
 @media only screen and (max-width: 1320px) {
   header {
     padding: 0 50px;
@@ -146,7 +147,7 @@ header {
   .nav-bar ul li a {
     margin-bottom: 12px;
   }
-}
+} */
 
 section {
   /* min-height: 100vh; */
@@ -245,7 +246,7 @@ section {
   display: flex;
   /* border: 3px solid black; */
   height: 380px;
-  width: inherit;
+  width: 100%;
   background: #d9d9d9;
   margin: 0px;
 }
@@ -278,6 +279,7 @@ section {
   width: 40%;
   margin: 0px;
   padding: 0px;
+  position: static;
 }
 .work ul {
   margin: 150px 80px 90px 80px;
@@ -299,7 +301,7 @@ section {
   margin: 0px;
   padding: 0px -50px 0px 30px;
   height: 400px;
-  width: 35.5cm;
+  width: 100%;
 }
 .form {
   /* border:2px solid black; */
@@ -464,7 +466,7 @@ footer {
   text-align: center;
   background: brown;
   height: 35px;
-  width: 35.5cm;
+  width: 100%;
 }
 /* ////////////UI UX Design ////////////////////// */
 
@@ -476,7 +478,7 @@ footer {
   overflow: hidden;
   text-align: center;
   transition: 1s;
-  background: rgb(234, 203, 203);
+  background: rgb(8, 8, 8);
   margin: 10px;
 }
 
@@ -509,9 +511,10 @@ footer {
   padding: 5px;
 }
 .title {
-  font-size: 20px;
+  font-size: 15px;
   font-family: monospace;
   text-align: center;
+  color: white;
 }
 
 .h4 {
@@ -536,6 +539,8 @@ footer {
   width: 250px;
   height: 250px;
   visibility: visible;
+  text-decoration: wavy;
+  font-size: medium;
   /* animation-fill-mode: forwards; */
 }
 @keyframes animate {
