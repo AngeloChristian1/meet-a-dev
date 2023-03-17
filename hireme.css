@@ -314,3 +314,28 @@ input[type="email"] {
   font-weight: 300px;
 }
 /* ///////////////////////////////////////////////////////////// */
+.hire {
+  display: flex;
+  margin: 20px;
+  padding: 50px;
+}
+.hey {
+  padding: 20px;
+  margin: 20px;
+
+  background: #d9d9d9;
+  width: 300px;
+  margin: 30px 50px;
+  padding: 20px;
+  text-align: left;
+}
+.hey p,
+.hey h4 {
+  padding: 20px;
+}
+
+#not {
+  margin-left: 460px;
+  margin: 20px;
+  width: 780px;
+}
