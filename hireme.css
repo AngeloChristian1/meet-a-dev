@@ -314,6 +314,11 @@ input[type="email"] {
   font-weight: 300px;
 }
 /* ///////////////////////////////////////////////////////////// */
+
+.cool {
+  margin-left: 50px;
+}
+
 .hire {
   display: flex;
   margin: 20px;
@@ -338,4 +343,11 @@ input[type="email"] {
   margin-left: 460px;
   margin: 20px;
   width: 780px;
+}
+.images {
+  margin: -70px 0px 500px 700px;
+}
+.images img {
+  width: 90px;
+  height: 100px;
 }
