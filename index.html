@@ -30,8 +30,8 @@
       </div>
     <div class=" nav-bar nav-bar2">
       <ul>
-        <li><a href="">BLOG</a></li>
-          <li><a href="">CONTACT</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact">CONTACT</a></li>
       </ul>
     </div>
     </header>
@@ -128,74 +128,74 @@
 
       
           <div class="box front">
-            <h4 class="title">FRONT END DEVELOPMENT</h4>
+            <h4 class="title">FRONT-END DEVELOPMENT</h4>
             <div class="anime">
               <div>
                 <div>
                   <img
-                    class="image wordpress"
-                    src="./icons/wordpress-white.svg"
-                    alt="wordpress"
+                    class="image react"
+                    src="./icons/react-white.svg"
+                    alt="React"
                   />
-                  <p>Wordpress</p>
+                  <p>React</p>
                 </div>
                 <div>
-                  <img class="image adobexd" src="./icons/Adobexd.svg" alt="adobe xd" />
-                  <p>Adobe XD</p>
+                  <img class="image css" src="./icons/css-white.svg" alt="adobe xd" />
+                  <p>CSS</p>
                 </div>
               </div>
       
               <div>
                 <div>
-                  <img class="image canva" src="./icons/canva.svg" alt="canva"
+                  <img class="image html" src="./icons/html-whote.svg" alt="canva"
                   width="50px" />
-                  <p>Canva</p>
+                  <p>HTML 5</p>
                 </div>
                 <div>
                   <img
-                    class="image figma"
-                    src="./icons/Figma-white.svg"
-                    alt="figma"
-                    color="white"
+                    class="image javascript"
+                    src="./icons/js-white.svg"
+                    alt="Javascript"
+                    
                   />
-                  <p>Figma</p>
+                  <p>JavaScript</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="box back">
-            <h4 class="title">BACK END DEVELOPMENT</h4>
+            <h4 class="title">BACK-END DEVELOPMENT</h4>
             <div class="anime">
               <div>
                 <div>
                   <img
                     class="image wordpress"
-                    src="./icons/wordpress-white.svg"
-                    alt="wordpress"
+                    src="./icons/python.svg"
+                    alt="python"
                   />
-                  <p>Wordpress</p>
+                  <p>Python</p>
                 </div>
                 <div>
-                  <img class="image adobexd" src="./icons/Adobexd.svg" alt="adobe xd" />
-                  <p>Adobe XD</p>
+                  <img class="image adobexd" src="./icons/nodejs.svg" alt="node js" />
+                  <p>Node Js</p>
                 </div>
               </div>
       
               <div>
                 <div>
-                  <img class="image canva" src="./icons/canva.svg" alt="canva"
+                  <img class="image mongodb" src="./icons/MongoDB.svg" alt="mongodb"
                   width="50px" />
-                  <p>Canva</p>
+                  <p>Mongo Database</p>
                 </div>
                 <div>
                   <img
-                    class="image figma"
-                    src="./icons/Figma-white.svg"
-                    alt="figma"
-                    color="white"
+                    class="image cprog"
+                    src="./icons/c-white.svg"
+                    alt="cprog"
+                    
                   />
-                  <p>Figma</p>
+                  <p>C Programming</p>
                 </div>
               </div>
             </div>
@@ -204,17 +204,69 @@
 
         </div>
       </div>
+
       <div class="work nav-bar">
         <ul>
-          <li><a href="#">SKILLS</a></li>
+          
+          <li id="we"><a  href="#">SKILLS</a></li>
+          <!-- <script>
+      document.getElementById(we).style.visibility = visible;
+    </script> -->
+
+     <!-- <script>
+      hambuger = document.querySelector(".hambuger");
+      hambuger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toogle("active");
+      };
+    </script> -->
+
+          <div class="skii" id="skii">
+            <div>
+              <h6 >Angular</h6>
+              <h6>JavaScript</h6>
+              <h6>HTML</h6>
+              <h6>C++</h6>
+            </div>
+            <div>
+              <h6>FIGMA</h6>
+              <h6>PYTHON</h6>
+              <h6>CSS</h6>
+              <h6>Node Js</h6>
+            </div>
+            <div>
+              <h6>Django</h6>
+              <h6>C</h6>
+              <h6>React</h6>
+              <h6>MongoDB</h6>
+            </div>
+          </div>
+          <script>
+            const targetDiv = document.getElementById("skii");
+            const btn = document.getElementById("we");
+            btn.onclick = function () {
+              if (targetDiv.style.visibility !== "hidden") {
+                targetDiv.style.visibility = "hidden";
+                javascript:this.preventDefault();
+              } else {
+                targetDiv.style.visibility = "visible";
+                btn.style.marginTop="-40px"
+                javascript:this.preventDefault();
+              }
+              event.preventDefault();
+              onsubmit="functionToRun(); return false;"
+            };
+            </script>
+          
           <li><a href="">PROJECTS</a></li>
       </ul>
       </div>
     </div>
       </div>
       
+      
     
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="form">
         <div>
           <h3>CONTACT US</H3>
@@ -248,7 +300,7 @@
       <div class="us">
         <div class="lg">
         <img src="./icons/logo13.svg" alt="Logo" width="80px" height="80px">
-        <h2>ANGELO CHRISTIAN</h2>
+        <h2><span class="name">A</span>NGELO CHRISTIA<span class="name">N</span></h2>
         </div>
         
         <div class="phone">
@@ -271,9 +323,9 @@
 
       </div>
     </div>
-    <footer>
-      <img scr="./icons/copyright-regular.svg" alt="c">
-      <p>Designed by <span>AngeloChristian</span>. All rights reserved</p>
-    </footer>
+    <div class="footer">
+      <!-- <img scr="./icons/copyright-regular.svg" alt="c"> -->
+      <p>Designed by <span id="angelo">@AngeloChristian</span>. All rights reserved</p>
+    </div>
   </body>
 </html>

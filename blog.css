@@ -127,7 +127,7 @@ header {
   display: flex;
   background: grey 40%;
   margin: 0px;
-  padding: 0px -50px 0px 30px;
+  padding: -40px -50px 0px 30px;
   height: 400px;
   width: 100%;
 }
@@ -209,7 +209,7 @@ input[type="email"] {
   margin: 0px 30px 0px -30px;
 }
 .up {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 12cm;
 }
 #submit {
@@ -221,9 +221,10 @@ input[type="email"] {
 
 /* Site map */
 .map {
-  margin: 0px;
+  margin: 0px 50px 0px 10px;
   text-decoration: none;
   width: 9cm;
+  border: none;
 }
 .pages ol {
   margin: 30px 60px 60px 50px;
@@ -258,7 +259,7 @@ input[type="email"] {
   font-size: 25px;
 }
 .site h4,
-h5 {
+#hhh {
   margin: 20px 0px 0px 0px;
   padding: 0 0 0;
   text-align: center;
@@ -278,10 +279,13 @@ h5 {
 }
 .iconz {
   display: block;
-  padding: 20px 15px 20px 40px;
+  padding: -50px 15px 20px 40px;
+}
+.iconz img {
+  margin: 8px;
 }
 .us {
-  margin: 30px;
+  margin: 40px;
 }
 .lg h2 {
   text-align: center;
@@ -289,30 +293,28 @@ h5 {
   margin: -70px 60px 60px 60px;
   /* border:1px solid blue; */
 }
-footer {
+.name {
+  font-size: 30px;
+  color: white;
+}
+.footer {
   align-items: center;
+  padding: 0px;
+  margin-top: -15px;
   text-align: center;
-  background: brown;
+  background: rgb(66, 64, 64);
   height: 35px;
   width: 100%;
 }
+.footer p {
+  margin-top: 9px;
+}
+#angelo {
+  color: black;
+  font-weight: 300px;
+}
 /* ///////////////////////////////////////////////////////////// */
-.parent {
-  height: 100vh;
-  display: flex;
-  margin: 10px;
-}
-.card {
-  height: 50%;
-  background: #d9d9d9;
-  width: 300px;
-  margin: 30px 50px;
-  padding: 20px;
-  text-align: left;
-  border: 2px solid black;
-  border-radius: 20px;
-  box-shadow: 1px 5px 32px;
-}
+
 p,
 li {
   margin: 15px;
@@ -322,35 +324,50 @@ section {
   margin-top: 20px 50px 40px 40px;
 }
 .topic {
-  border: 1px solid black;
-  background: #c3dbff;
+  /* border: 1px solid black; */
+  /* background: #c3dbff; */
   display: flex;
   margin: 10px 15px 25px 20px;
   height: 50%;
-  width: 400px;
+  width: 350px;
   padding: 10px;
 }
-img {
-  width: 200px;
-  height: 200px;
+.topic img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
 }
 span {
   color: blue;
 }
 h5 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 200px;
+  margin-right: 10px;
+  /* border: 1px solid black; */
+  text-align: left;
+  width: auto;
+  margin-top: 0px;
+}
+.top {
+  text-align: center;
+}
+.top p {
+  font-weight: 300px;
 }
 
 #tops {
   background: blue;
   color: white;
-  width: 100px;
-  height: 55px;
+  width: 110px;
+  height: 40px;
   border: 2px solid black;
   border-radius: 15px;
-  padding: 7px;
+  padding: 7px 0px 0px 0px;
+  text-align: center;
   filter: blur(0.5px);
+  float: right;
+  margin: -50px 40px -100px 0px;
 }
 
 #tops:hover {
@@ -358,4 +375,26 @@ h5 {
   background: #c3dbff;
   filter: blur(0.5px);
   font-weight: 300px;
+}
+.top {
+  margin: 50px 10px;
+}
+.previous {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+  color: blue;
+}
+.previous:hover {
+  color: rgb(140, 140, 252);
+  cursor: pointer;
+}
+.next {
+  margin-top: -22px;
+  margin-left: 250px;
+}
+
+#pp {
+  margin-left: 130px;
 }

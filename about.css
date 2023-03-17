@@ -131,8 +131,8 @@ header {
 .contact {
   display: flex;
   background: grey 40%;
-  margin: -20px 0px 0px 0px;
-  padding: 0px -50px 0px 30px;
+  margin: 0px;
+  padding: -40px -50px 0px 30px;
   height: 400px;
   width: 100%;
 }
@@ -209,11 +209,12 @@ input[type="email"] {
 }
 
 .map {
+  border: 2px solid black;
   width: 9.5cm;
   margin: 0px 30px 0px -30px;
 }
 .up {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 12cm;
 }
 #submit {
@@ -225,9 +226,10 @@ input[type="email"] {
 
 /* Site map */
 .map {
-  margin: 0px;
+  margin: 0px 50px 0px 10px;
   text-decoration: none;
   width: 9cm;
+  border: none;
 }
 .pages ol {
   margin: 30px 60px 60px 50px;
@@ -262,7 +264,7 @@ input[type="email"] {
   font-size: 25px;
 }
 .site h4,
-h5 {
+#hhh {
   margin: 20px 0px 0px 0px;
   padding: 0 0 0;
   text-align: center;
@@ -282,10 +284,13 @@ h5 {
 }
 .iconz {
   display: block;
-  padding: 20px 15px 20px 40px;
+  padding: -50px 15px 20px 40px;
+}
+.iconz img {
+  margin: 8px;
 }
 .us {
-  margin: 30px;
+  margin: 40px;
 }
 .lg h2 {
   text-align: center;
@@ -293,18 +298,32 @@ h5 {
   margin: -70px 60px 60px 60px;
   /* border:1px solid blue; */
 }
-footer {
+.name {
+  font-size: 30px;
+  color: white;
+}
+.footer {
   align-items: center;
+  padding: 0px;
+  margin-top: -15px;
   text-align: center;
-  background: brown;
+  background: rgb(66, 64, 64);
   height: 35px;
   width: 100%;
+}
+.footer p {
+  margin-top: 9px;
+}
+#angelo {
+  color: black;
+  font-weight: 300px;
 }
 /* ////////////////////////////////// */
 .parent {
   height: 100vh;
   display: flex;
   margin: 10px;
+  margin-top: -700px;
 }
 .card {
   height: 50%;
@@ -317,7 +336,29 @@ footer {
   border-radius: 20px;
   box-shadow: 1px 5px 32px;
 }
+.card:hover {
+  box-shadow: 2px 7px 52px;
+}
 p,
 li {
   margin: 15px;
+}
+.circle {
+  height: 770px;
+  width: 770px;
+  background: cornflowerblue;
+  border-radius: 500px;
+  margin-left: -250px;
+  overflow: hidden;
+}
+span {
+  font-size: 30px;
+  font-weight: 400px;
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+#ange {
+  font-weight: 200px;
 }
