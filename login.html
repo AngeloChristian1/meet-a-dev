@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
-    <link rel="stylesheet" href="hireme.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -27,39 +30,36 @@
         </ul>
       </div>
     </header>
-    <div class="cool">
-    <div class="hire">
-        <div class="hey"> 
-            <h4>Designing UI UX</h4>
-            <h4>Custom Static Website</h4>
-            <h4>Website with small backed server</h4>
-            <h4>Full functioning Website with high end server</h4>
-         </div>
-        <div class="hey"> 
-            <p>Website design with Figma, Canva or Adobe XD</p>
-            <p>Website made with HTML, CSS and JavaScript only</p>
-            <p>Website made with HTML, CSS, React and Node Js</p>
-            <p>Website made with React, Node Js, Python and Mongo DB</p>
-        </div>
-        <div class="hey"> 
-            <h4> 50-100 $</h4>
-            <h4> 100-200 $</h4>
-            <h4> 150-250 $</h4>
-            <h4> 200-350 $</h4>
-        </div>
-    </div>
-    <p id="not">Not that the amount of money required to fulfil your services may increase depending on which languages you prefer your website to have or the time you need it to be fully functioning</p>
-    <p>For any inquiry fell free to contact me on my Email or phone number  as written below.</p>
-    <p>Our available methods of paying include</p>
-    <div class="images">
-        <img src="./icons/momohire.svg" alt="momo">
-        <img src="./icons/airtelhire.svg" alt="momo">
-        <img src="./icons/BKhire.svg" alt="momo">
-        <img src="./icons/paypalhire.svg" alt="momo">
+    <section>
+    <h4>Log In</h4>
+    <p>Don't have an account? <a href="signup.html">Sign Up Here</a></p>
+
+    <div class="sign">
+        
+    <div>
+        <form>
+            <label id="nann" for="email">Email:</label>
+            <input type="text" name="email" required placeholder="Email"></br>
+            <label id="pass" for="password">Password:</label>
+            <input type="password" name="password" required placeholder="password"></br>
+            <input type="submit" name="login" value="Log In" id= "submit">
+        
+        </form>
     </div>
 
-
-</div>
+    </div>
+    <div>
+        <div class=" other google">
+            <img src="./icons/google_logo.png" alt="login with google">
+            <h5>Continue with google</h5>
+        </div>
+        <div class="other face">
+            <img src="./icons/facebook_logo.png" alt="login with facebook">
+            <h5>Continue with facebook</h5>
+        </div>
+    </div>
+</section>
+   
     
     <div class="contact">
         <div class="form">
@@ -79,15 +79,15 @@
         <div class="map">
           <div class="site">
           <h4>SITE MAP</h4>
-          <h5 id="hhh">All Our Pages</h5>
+          <h5>All Our Pages</h5>
           </div>
           <div class="pages">
           <ol style="list-style-type:disc;"style="list-style-type:disc;">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Hire Me</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="hireme.html">Hire Me</a></li>
           </ol>
         </div>
   
@@ -95,7 +95,7 @@
         <div class="us">
           <div class="lg">
           <img src="./icons/logo13.svg" alt="Logo" width="80px" height="80px">
-          <h2><span class="nam">A</span>NGELO CHRISTIA<span class="nam">N</span></h2>
+          <h2><span class="name">A</span>NGELO CHRISTIA<span class="name">N</span></h2>
           </div>
           
           <div class="phone">

@@ -61,7 +61,7 @@
           </div>
           <div class="nav-bar">
             <ul>
-            <li><a href="">VIEW CV</a></li>
+            <li><a href="resume.html">VIEW CV</a></li>
             </ul>
           </div>
           </ul> 
@@ -246,12 +246,14 @@
             const btn = document.getElementById("we");
             btn.onclick = function () {
               if (targetDiv.style.visibility !== "hidden") {
-                targetDiv.style.visibility = "hidden";
+                // targetDiv.style.visibility = "hidden";
                 javascript:this.preventDefault();
+                 event.preventDefault();
               } else {
                 targetDiv.style.visibility = "visible";
                 btn.style.marginTop="-40px"
                 javascript:this.preventDefault();
+                event.preventDefault();
               }
               event.preventDefault();
               onsubmit="functionToRun(); return false;"
@@ -273,7 +275,7 @@
             <p>Send us a message</p>
         </div>
         <div>
-          <form>
+          <form action="https://formspree.io/f/mjvdevnr" method="POST">
             <input type="text" name="name" required="" id="name" placeholder="Your full name"></br>
             <input type="email" name="email" required="" id="email" placeholder="Your email"></br>
             <input type="text-area" name="text" id="text" placeholder="Your message" id="area"></br>

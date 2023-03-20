@@ -29,6 +29,8 @@ header {
   justify-content: space-between;
   padding: 0 100px;
   background-position: center;
+  font-weight: 500px;
+  color: white;
 }
 
 .aclogo img {
@@ -92,12 +94,15 @@ header {
   background: #c3dbff;
 }
 .nav-bar ul li a.active {
-  color: black;
+  font-weight: 800px;
+  color: white;
   display: block;
   background: blue;
 }
 .nav-bar ul li a.active:hover {
   background: #c3dbff;
+  font-weight: 500px;
+  color: black;
 }
 /* }
 @media only screen and (max-width: 1320px) {
@@ -340,7 +345,8 @@ input[type="email"] {
   font-size: 16px;
 }
 .form input[placeholder] {
-  color: red;
+  color: black;
+  font-weight: 400;
 }
 .form input[type="text-area"] {
   height: 90px;
@@ -411,7 +417,7 @@ input[type="email"] {
 .pages ol li {
   padding: 10px;
   text-decoration: none;
-  color: red;
+  color: black;
   text-align: center;
   margin-top: -20px;
   justify-content: center;

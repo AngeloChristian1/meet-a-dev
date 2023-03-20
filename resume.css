@@ -1,0 +1,144 @@
+body {
+  align-content: center;
+  font-family: "poppins", sans-serif;
+  align-items: center;
+  margin-left: 320px;
+  margin-top: -40px;
+}
+.container {
+  display: flex;
+  height: 120vh;
+  width: 100vh;
+  border: 1px whitesmoke;
+
+  margin: 50px;
+  align-self: center;
+}
+.first {
+  background: #c3dbff;
+  /* border: 2px solid black; */
+  width: 40%;
+  /* background: linear-gradient(to bottom right, transparent 5%, rgb(212, 80, 80) 5%); */
+  background: linear-gradient(45deg, 225deg, transparent 40px, #c3dbff 40px);
+  background: linear-gradient(225deg, transparent 40px, #c3dbff 40px);
+}
+
+.img-container {
+  background: rgb(0, 136, 255);
+  border: 1px rgb(0, 136, 255);
+  border-radius: 300px;
+  width: 190px;
+  height: 190px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  margin-left: 30px;
+}
+.img-container img {
+  width: 170px;
+  height: 170px;
+  border-radius: 300px;
+  align-self: center;
+  margin: 10px;
+}
+
+.container h2 {
+  text-decoration: underline;
+  align-self: center;
+  text-align: center;
+  font-size: medium;
+}
+
+.info {
+  display: flex;
+  margin: 0px;
+  margin-left: 40px;
+  padding: 10px;
+  margin-right: -100px;
+  font-weight: 400;
+}
+.tel-icons {
+  width: 15px;
+  height: 15px;
+  margin-left: -25px;
+  padding: 35x;
+}
+.tel-info {
+  margin: -10px 5px;
+  padding-top: -15px;
+  margin-right: -40px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.hobbies {
+  text-align: left;
+
+  font-size: medium;
+}
+.hobbies h2 {
+  text-align: center;
+}
+.hobbies p {
+  padding: -5px;
+  font-size: 12px;
+  margin-left: 30px;
+}
+/*  //////////////////////////////////// */
+.second {
+  background: white;
+  /* border: 2px solid black; */
+  width: 60%;
+  font-size: 12px;
+}
+.titl {
+  margin: 0px 20px;
+  text-align: left;
+}
+.titl h2 {
+  text-decoration: none;
+  align-self: left;
+  margin: 0px;
+  text-align: left;
+  font-size: 25px;
+}
+.titl p {
+  margin-top: 0%;
+  font-size: 20px;
+}
+.ground {
+  margin: 15px;
+}
+.ground h5 {
+  font-size: 15px;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+.ground h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ground p {
+  margin: 2px;
+  padding: 2px;
+  /* margin-top: -5px;
+  padding-top: -5px; */
+}
+.down {
+  margin-left: 650px;
+  margin-top: -780px;
+}
+a {
+  text-decoration: none;
+  background: blue;
+  margin: 3px;
+  padding: 5px;
+  height: 3%;
+  width: 25%;
+  text-align: center;
+  color: white;
+  border: 2px solid black;
+  border-radius: 45px;
+  padding-top: 0px;
+}
