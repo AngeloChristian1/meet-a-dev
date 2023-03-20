@@ -16,7 +16,7 @@ body {
   width: 100vw;
   margin: 0px;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 header {
   /* border:2px solid red; */
@@ -325,19 +325,23 @@ input[type="email"] {
 }
 
 .hire {
-  display: flex;
+  /* display: flex; */
   margin: 20px;
   padding: 50px;
 }
 .hey {
-  padding: 20px;
-  margin: 20px;
-
+  padding: 0px;
+  align-self: center;
+  margin: 0px;
   background: #d9d9d9;
-  width: 300px;
+  width: 80vw;
+  height: 70px;
   margin: 30px 50px;
-  padding: 20px;
+  padding: 0px;
   text-align: left;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 5px 10px;
 }
 .hey p,
 .hey h4 {
@@ -350,9 +354,40 @@ input[type="email"] {
   width: 780px;
 }
 .images {
-  margin: -70px 0px 500px 700px;
+  margin: -40px 0px 400px 350px;
 }
 .images img {
-  width: 90px;
-  height: 100px;
+  width: 50px;
+  height: 70px;
+  padding-right: 5px;
+}
+/* .do {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border: 1px solid black;
+}
+.money {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding: 60px;
+} */
+.bottom {
+  margin-bottom: 0px;
+  margin: 80px;
+}
+.do {
+  width: 65vw;
+  align-items: center;
+}
+.option {
+  width: 70vw;
+}
+.money {
+  width: 75vw;
+}
+.last {
+  width: 80vw;
+}
+.hey:hover {
+  box-shadow: 1px 5px 30px;
 }
